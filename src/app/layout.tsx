@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import AppLayout from "@/app/AppLayout"; // 👈 import your client layout
+import AppLayout from "@/app/AppLayout";
 import { UserProvider } from "./context/UserContext";
 
 export const metadata: Metadata = {
@@ -15,6 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body>
         <UserProvider>
           <AppLayout>{children}</AppLayout>

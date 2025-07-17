@@ -164,9 +164,6 @@ export default function RegisterPage() {
               {...register("height")}
               className="input bg-[#f4f5f6] mt-2 p-2 rounded-lg w-full"
             />
-            {errors.height && (
-              <p className="text-red-500 text-sm">{errors.height.message}</p>
-            )}
           </div>
           <div>
             <label>Weight (kg)</label>
@@ -174,10 +171,7 @@ export default function RegisterPage() {
               type="number"
               {...register("weight")}
               className="input bg-[#f4f5f6] mt-2 p-2 rounded-lg w-full"
-            />
-            {errors.weight && (
-              <p className="text-red-500 text-sm">{errors.weight.message}</p>
-            )}
+            />  
           </div>
         </div>
         <div>
