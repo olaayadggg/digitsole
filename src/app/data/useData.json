@@ -1,0 +1,1292 @@
+[
+  {
+    "gender": "male",
+    "height": 175,
+    "weight": 75,
+    "fat": 18,
+    "water": 58,
+    "pressure": [36, 22, 42],
+    "weightDistribution": [52, 48],
+    "foot_kinematics": {
+      "dorsiflexion": 70,
+      "plantarflexion": 55,
+      "pronation": 65,
+      "supination": 60
+    },
+    "balance_score": 82,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 80 },
+      { "time": "1s", "steps": 20, "cadence": 85 },
+      { "time": "2s", "steps": 45, "cadence": 95 },
+      { "time": "3s", "steps": 70, "cadence": 100 },
+      { "time": "4s", "steps": 95, "cadence": 105 },
+      { "time": "5s", "steps": 120, "cadence": 98 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 80 },
+      { "time": "1s", "cadence": 95 },
+      { "time": "2s", "cadence": 102 },
+      { "time": "3s", "cadence": 100 },
+      { "time": "4s", "cadence": 105 },
+      { "time": "5s", "cadence": 98 }
+    ],
+    "speed": 6.2,
+    "jump": 36,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 2 },
+      { "time": "2s", "sway": 4 },
+      { "time": "3s", "sway": 1 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -2 },
+      { "time": "6s", "sway": 0 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 165,
+    "weight": 62,
+    "fat": 25,
+    "water": 55,
+    "pressure": [34, 20, 46],
+    "weightDistribution": [49, 51],
+    "foot_kinematics": {
+      "dorsiflexion": 68,
+      "plantarflexion": 53,
+      "pronation": 62,
+      "supination": 58
+    },
+    "balance_score": 79,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 78 },
+      { "time": "1s", "steps": 19, "cadence": 84 },
+      { "time": "2s", "steps": 43, "cadence": 90 },
+      { "time": "3s", "steps": 67, "cadence": 98 },
+      { "time": "4s", "steps": 92, "cadence": 101 },
+      { "time": "5s", "steps": 115, "cadence": 95 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 78 },
+      { "time": "1s", "cadence": 90 },
+      { "time": "2s", "cadence": 100 },
+      { "time": "3s", "cadence": 98 },
+      { "time": "4s", "cadence": 102 },
+      { "time": "5s", "cadence": 96 }
+    ],
+    "speed": 5.8,
+    "jump": 32,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 3 },
+      { "time": "3s", "sway": 0 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -3 },
+      { "time": "6s", "sway": -1 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 180,
+    "weight": 85,
+    "fat": 21,
+    "water": 56,
+    "pressure": [38, 23, 39],
+    "weightDistribution": [53, 47],
+    "foot_kinematics": {
+      "dorsiflexion": 72,
+      "plantarflexion": 50,
+      "pronation": 64,
+      "supination": 61
+    },
+    "balance_score": 85,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 79 },
+      { "time": "1s", "steps": 21, "cadence": 83 },
+      { "time": "2s", "steps": 47, "cadence": 91 },
+      { "time": "3s", "steps": 73, "cadence": 99 },
+      { "time": "4s", "steps": 97, "cadence": 104 },
+      { "time": "5s", "steps": 122, "cadence": 96 }
+    ],
+     "gait_analysis_data": [
+      { "time": "0s", "cadence": 82 },
+      { "time": "1s", "cadence": 97 },
+      { "time": "2s", "cadence": 104 },
+      { "time": "3s", "cadence": 101 },
+      { "time": "4s", "cadence": 107 },
+      { "time": "5s", "cadence": 100 }
+    ],
+    "speed": 6.5,
+    "jump": 38,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 2 },
+      { "time": "2s", "sway": 1 },
+      { "time": "3s", "sway": -1 },
+      { "time": "4s", "sway": -2 },
+      { "time": "5s", "sway": -1 },
+      { "time": "6s", "sway": 0 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 160,
+    "weight": 58,
+    "fat": 28,
+    "water": 52,
+    "pressure": [33, 21, 46],
+    "weightDistribution": [50, 50],
+    "foot_kinematics": {
+      "dorsiflexion": 66,
+      "plantarflexion": 54,
+      "pronation": 60,
+      "supination": 59
+    },
+    "balance_score": 76,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 77 },
+      { "time": "1s", "steps": 18, "cadence": 83 },
+      { "time": "2s", "steps": 44, "cadence": 88 },
+      { "time": "3s", "steps": 68, "cadence": 95 },
+      { "time": "4s", "steps": 90, "cadence": 100 },
+      { "time": "5s", "steps": 116, "cadence": 94 }
+    ],
+     "gait_analysis_data": [
+      { "time": "0s", "cadence": 76 },
+      { "time": "1s", "cadence": 88 },
+      { "time": "2s", "cadence": 97 },
+      { "time": "3s", "cadence": 95 },
+      { "time": "4s", "cadence": 99 },
+      { "time": "5s", "cadence": 92 }
+    ],
+    "speed": 5.6,
+    "jump": 30,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 2 },
+      { "time": "3s", "sway": 0 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -2 },
+      { "time": "6s", "sway": -1 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 170,
+    "weight": 68,
+    "fat": 19,
+    "water": 59,
+    "pressure": [35, 22, 43],
+    "weightDistribution": [51, 49],
+    "foot_kinematics": {
+      "dorsiflexion": 69,
+      "plantarflexion": 52,
+      "pronation": 63,
+      "supination": 60
+    },
+    "balance_score": 80,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 81 },
+      { "time": "1s", "steps": 22, "cadence": 87 },
+      { "time": "2s", "steps": 48, "cadence": 94 },
+      { "time": "3s", "steps": 71, "cadence": 101 },
+      { "time": "4s", "steps": 98, "cadence": 106 },
+      { "time": "5s", "steps": 124, "cadence": 97 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 79 },
+      { "time": "1s", "cadence": 93 },
+      { "time": "2s", "cadence": 100 },
+      { "time": "3s", "cadence": 97 },
+      { "time": "4s", "cadence": 103 },
+      { "time": "5s", "cadence": 95 }
+    ],
+    "speed": 6.0,
+    "jump": 35,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 3 },
+      { "time": "3s", "sway": 1 },
+      { "time": "4s", "sway": -2 },
+      { "time": "5s", "sway": -1 },
+      { "time": "6s", "sway": 0 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 168,
+    "weight": 66,
+    "fat": 26,
+    "water": 54,
+    "pressure": [36, 20, 44],
+    "weightDistribution": [47, 53],
+    "foot_kinematics": {
+      "dorsiflexion": 67,
+      "plantarflexion": 55,
+      "pronation": 61,
+      "supination": 57
+    },
+    "balance_score": 78,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 79 },
+      { "time": "1s", "steps": 19, "cadence": 84 },
+      { "time": "2s", "steps": 44, "cadence": 90 },
+      { "time": "3s", "steps": 69, "cadence": 96 },
+      { "time": "4s", "steps": 93, "cadence": 102 },
+      { "time": "5s", "steps": 117, "cadence": 95 }
+    ],
+     "gait_analysis_data": [
+      { "time": "0s", "cadence": 77 },
+      { "time": "1s", "cadence": 91 },
+      { "time": "2s", "cadence": 98 },
+      { "time": "3s", "cadence": 94 },
+      { "time": "4s", "cadence": 100 },
+      { "time": "5s", "cadence": 93 }
+    ],
+    "speed": 5.7,
+    "jump": 31,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 2 },
+      { "time": "2s", "sway": 4 },
+      { "time": "3s", "sway": 0 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -3 },
+      { "time": "6s", "sway": -2 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 178,
+    "weight": 80,
+    "fat": 20,
+    "water": 57,
+    "pressure": [37, 23, 40],
+    "weightDistribution": [54, 46],
+    "foot_kinematics": {
+      "dorsiflexion": 71,
+      "plantarflexion": 51,
+      "pronation": 66,
+      "supination": 62
+    },
+    "balance_score": 83,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 80 },
+      { "time": "1s", "steps": 21, "cadence": 86 },
+      { "time": "2s", "steps": 46, "cadence": 92 },
+      { "time": "3s", "steps": 72, "cadence": 99 },
+      { "time": "4s", "steps": 97, "cadence": 104 },
+      { "time": "5s", "steps": 121, "cadence": 96 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 81 },
+      { "time": "1s", "cadence": 96 },
+      { "time": "2s", "cadence": 103 },
+      { "time": "3s", "cadence": 99 },
+      { "time": "4s", "cadence": 106 },
+      { "time": "5s", "cadence": 99 }
+    ],
+    "speed": 6.3,
+    "jump": 37,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 2 },
+      { "time": "3s", "sway": 0 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -2 },
+      { "time": "6s", "sway": 0 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 162,
+    "weight": 60,
+    "fat": 27,
+    "water": 53,
+    "pressure": [35, 21, 44],
+    "weightDistribution": [48, 52],
+    "foot_kinematics": {
+      "dorsiflexion": 65,
+      "plantarflexion": 56,
+      "pronation": 59,
+      "supination": 56
+    },
+    "balance_score": 74,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 76 },
+      { "time": "1s", "steps": 18, "cadence": 82 },
+      { "time": "2s", "steps": 42, "cadence": 88 },
+      { "time": "3s", "steps": 67, "cadence": 94 },
+      { "time": "4s", "steps": 91, "cadence": 99 },
+      { "time": "5s", "steps": 114, "cadence": 93 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 75 },
+      { "time": "1s", "cadence": 89 },
+      { "time": "2s", "cadence": 96 },
+      { "time": "3s", "cadence": 93 },
+      { "time": "4s", "cadence": 98 },
+      { "time": "5s", "cadence": 91 }
+    ],
+    "speed": 5.5,
+    "jump": 29,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 3 },
+      { "time": "3s", "sway": 1 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -2 },
+      { "time": "6s", "sway": 0 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 182,
+    "weight": 88,
+    "fat": 22,
+    "water": 55,
+    "pressure": [39, 24, 37],
+    "weightDistribution": [55, 45],
+    "foot_kinematics": {
+      "dorsiflexion": 73,
+      "plantarflexion": 49,
+      "pronation": 67,
+      "supination": 63
+    },
+    "balance_score": 86,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 82 },
+      { "time": "1s", "steps": 22, "cadence": 88 },
+      { "time": "2s", "steps": 48, "cadence": 94 },
+      { "time": "3s", "steps": 74, "cadence": 100 },
+      { "time": "4s", "steps": 98, "cadence": 105 },
+      { "time": "5s", "steps": 123, "cadence": 97 }
+    ],
+     "gait_analysis_data": [
+      { "time": "0s", "cadence": 83 },
+      { "time": "1s", "cadence": 98 },
+      { "time": "2s", "cadence": 105 },
+      { "time": "3s", "cadence": 102 },
+      { "time": "4s", "cadence": 108 },
+      { "time": "5s", "cadence": 101 }
+    ],
+    "speed": 6.6,
+    "jump": 39,
+     "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 2 },
+      { "time": "2s", "sway": 4 },
+      { "time": "3s", "sway": 2 },
+      { "time": "4s", "sway": -2 },
+      { "time": "5s", "sway": -3 },
+      { "time": "6s", "sway": -1 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 158,
+    "weight": 55,
+    "fat": 29,
+    "water": 51,
+    "pressure": [32, 19, 49],
+    "weightDistribution": [50, 50],
+    "foot_kinematics": {
+      "dorsiflexion": 64,
+      "plantarflexion": 57,
+      "pronation": 58,
+      "supination": 55
+    },
+    "balance_score": 72,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 75 },
+      { "time": "1s", "steps": 17, "cadence": 81 },
+      { "time": "2s", "steps": 41, "cadence": 87 },
+      { "time": "3s", "steps": 65, "cadence": 93 },
+      { "time": "4s", "steps": 88, "cadence": 98 },
+      { "time": "5s", "steps": 111, "cadence": 92 }
+    ],
+     "gait_analysis_data": [
+      { "time": "0s", "cadence": 74 },
+      { "time": "1s", "cadence": 87 },
+      { "time": "2s", "cadence": 94 },
+      { "time": "3s", "cadence": 91 },
+      { "time": "4s", "cadence": 97 },
+      { "time": "5s", "cadence": 90 }
+    ],
+    "speed": 5.4,
+    "jump": 28,
+     "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 2 },
+      { "time": "3s", "sway": 0 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -3 },
+      { "time": "6s", "sway": -1 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 175,
+    "weight": 75,
+    "fat": 18,
+    "water": 58,
+    "pressure": [36, 22, 42],
+    "weightDistribution": [52, 48],
+    "foot_kinematics": {
+      "dorsiflexion": 70,
+      "plantarflexion": 55,
+      "pronation": 65,
+      "supination": 60
+    },
+    "balance_score": 82,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 80 },
+      { "time": "1s", "steps": 20, "cadence": 85 },
+      { "time": "2s", "steps": 45, "cadence": 95 },
+      { "time": "3s", "steps": 70, "cadence": 100 },
+      { "time": "4s", "steps": 95, "cadence": 105 },
+      { "time": "5s", "steps": 120, "cadence": 98 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 80 },
+      { "time": "1s", "cadence": 95 },
+      { "time": "2s", "cadence": 102 },
+      { "time": "3s", "cadence": 100 },
+      { "time": "4s", "cadence": 105 },
+      { "time": "5s", "cadence": 98 }
+    ],
+    "speed": 6.2,
+    "jump": 36,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 2 },
+      { "time": "2s", "sway": 4 },
+      { "time": "3s", "sway": 1 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -2 },
+      { "time": "6s", "sway": 0 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 165,
+    "weight": 62,
+    "fat": 25,
+    "water": 55,
+    "pressure": [34, 20, 46],
+    "weightDistribution": [49, 51],
+    "foot_kinematics": {
+      "dorsiflexion": 68,
+      "plantarflexion": 53,
+      "pronation": 62,
+      "supination": 58
+    },
+    "balance_score": 79,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 78 },
+      { "time": "1s", "steps": 19, "cadence": 84 },
+      { "time": "2s", "steps": 43, "cadence": 90 },
+      { "time": "3s", "steps": 67, "cadence": 98 },
+      { "time": "4s", "steps": 92, "cadence": 101 },
+      { "time": "5s", "steps": 115, "cadence": 95 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 78 },
+      { "time": "1s", "cadence": 90 },
+      { "time": "2s", "cadence": 100 },
+      { "time": "3s", "cadence": 98 },
+      { "time": "4s", "cadence": 102 },
+      { "time": "5s", "cadence": 96 }
+    ],
+    "speed": 5.8,
+    "jump": 32,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 3 },
+      { "time": "3s", "sway": 0 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -3 },
+      { "time": "6s", "sway": -1 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 180,
+    "weight": 85,
+    "fat": 21,
+    "water": 56,
+    "pressure": [38, 23, 39],
+    "weightDistribution": [53, 47],
+    "foot_kinematics": {
+      "dorsiflexion": 72,
+      "plantarflexion": 50,
+      "pronation": 64,
+      "supination": 61
+    },
+    "balance_score": 85,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 79 },
+      { "time": "1s", "steps": 21, "cadence": 83 },
+      { "time": "2s", "steps": 47, "cadence": 91 },
+      { "time": "3s", "steps": 73, "cadence": 99 },
+      { "time": "4s", "steps": 97, "cadence": 104 },
+      { "time": "5s", "steps": 122, "cadence": 96 }
+    ],
+     "gait_analysis_data": [
+      { "time": "0s", "cadence": 82 },
+      { "time": "1s", "cadence": 97 },
+      { "time": "2s", "cadence": 104 },
+      { "time": "3s", "cadence": 101 },
+      { "time": "4s", "cadence": 107 },
+      { "time": "5s", "cadence": 100 }
+    ],
+    "speed": 6.5,
+    "jump": 38,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 2 },
+      { "time": "2s", "sway": 1 },
+      { "time": "3s", "sway": -1 },
+      { "time": "4s", "sway": -2 },
+      { "time": "5s", "sway": -1 },
+      { "time": "6s", "sway": 0 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 160,
+    "weight": 58,
+    "fat": 28,
+    "water": 52,
+    "pressure": [33, 21, 46],
+    "weightDistribution": [50, 50],
+    "foot_kinematics": {
+      "dorsiflexion": 66,
+      "plantarflexion": 54,
+      "pronation": 60,
+      "supination": 59
+    },
+    "balance_score": 76,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 77 },
+      { "time": "1s", "steps": 18, "cadence": 83 },
+      { "time": "2s", "steps": 44, "cadence": 88 },
+      { "time": "3s", "steps": 68, "cadence": 95 },
+      { "time": "4s", "steps": 90, "cadence": 100 },
+      { "time": "5s", "steps": 116, "cadence": 94 }
+    ],
+     "gait_analysis_data": [
+      { "time": "0s", "cadence": 76 },
+      { "time": "1s", "cadence": 88 },
+      { "time": "2s", "cadence": 97 },
+      { "time": "3s", "cadence": 95 },
+      { "time": "4s", "cadence": 99 },
+      { "time": "5s", "cadence": 92 }
+    ],
+    "speed": 5.6,
+    "jump": 30,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 2 },
+      { "time": "3s", "sway": 0 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -2 },
+      { "time": "6s", "sway": -1 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 170,
+    "weight": 68,
+    "fat": 19,
+    "water": 59,
+    "pressure": [35, 22, 43],
+    "weightDistribution": [51, 49],
+    "foot_kinematics": {
+      "dorsiflexion": 69,
+      "plantarflexion": 52,
+      "pronation": 63,
+      "supination": 60
+    },
+    "balance_score": 80,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 81 },
+      { "time": "1s", "steps": 22, "cadence": 87 },
+      { "time": "2s", "steps": 48, "cadence": 94 },
+      { "time": "3s", "steps": 71, "cadence": 101 },
+      { "time": "4s", "steps": 98, "cadence": 106 },
+      { "time": "5s", "steps": 124, "cadence": 97 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 79 },
+      { "time": "1s", "cadence": 93 },
+      { "time": "2s", "cadence": 100 },
+      { "time": "3s", "cadence": 97 },
+      { "time": "4s", "cadence": 103 },
+      { "time": "5s", "cadence": 95 }
+    ],
+    "speed": 6.0,
+    "jump": 35,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 3 },
+      { "time": "3s", "sway": 1 },
+      { "time": "4s", "sway": -2 },
+      { "time": "5s", "sway": -1 },
+      { "time": "6s", "sway": 0 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 168,
+    "weight": 66,
+    "fat": 26,
+    "water": 54,
+    "pressure": [36, 20, 44],
+    "weightDistribution": [47, 53],
+    "foot_kinematics": {
+      "dorsiflexion": 67,
+      "plantarflexion": 55,
+      "pronation": 61,
+      "supination": 57
+    },
+    "balance_score": 78,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 79 },
+      { "time": "1s", "steps": 19, "cadence": 84 },
+      { "time": "2s", "steps": 44, "cadence": 90 },
+      { "time": "3s", "steps": 69, "cadence": 96 },
+      { "time": "4s", "steps": 93, "cadence": 102 },
+      { "time": "5s", "steps": 117, "cadence": 95 }
+    ],
+     "gait_analysis_data": [
+      { "time": "0s", "cadence": 77 },
+      { "time": "1s", "cadence": 91 },
+      { "time": "2s", "cadence": 98 },
+      { "time": "3s", "cadence": 94 },
+      { "time": "4s", "cadence": 100 },
+      { "time": "5s", "cadence": 93 }
+    ],
+    "speed": 5.7,
+    "jump": 31,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 2 },
+      { "time": "2s", "sway": 4 },
+      { "time": "3s", "sway": 0 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -3 },
+      { "time": "6s", "sway": -2 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 178,
+    "weight": 80,
+    "fat": 20,
+    "water": 57,
+    "pressure": [37, 23, 40],
+    "weightDistribution": [54, 46],
+    "foot_kinematics": {
+      "dorsiflexion": 71,
+      "plantarflexion": 51,
+      "pronation": 66,
+      "supination": 62
+    },
+    "balance_score": 83,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 80 },
+      { "time": "1s", "steps": 21, "cadence": 86 },
+      { "time": "2s", "steps": 46, "cadence": 92 },
+      { "time": "3s", "steps": 72, "cadence": 99 },
+      { "time": "4s", "steps": 97, "cadence": 104 },
+      { "time": "5s", "steps": 121, "cadence": 96 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 81 },
+      { "time": "1s", "cadence": 96 },
+      { "time": "2s", "cadence": 103 },
+      { "time": "3s", "cadence": 99 },
+      { "time": "4s", "cadence": 106 },
+      { "time": "5s", "cadence": 99 }
+    ],
+    "speed": 6.3,
+    "jump": 37,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 2 },
+      { "time": "3s", "sway": 0 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -2 },
+      { "time": "6s", "sway": 0 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 162,
+    "weight": 60,
+    "fat": 27,
+    "water": 53,
+    "pressure": [35, 21, 44],
+    "weightDistribution": [48, 52],
+    "foot_kinematics": {
+      "dorsiflexion": 65,
+      "plantarflexion": 56,
+      "pronation": 59,
+      "supination": 56
+    },
+    "balance_score": 74,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 76 },
+      { "time": "1s", "steps": 18, "cadence": 82 },
+      { "time": "2s", "steps": 42, "cadence": 88 },
+      { "time": "3s", "steps": 67, "cadence": 94 },
+      { "time": "4s", "steps": 91, "cadence": 99 },
+      { "time": "5s", "steps": 114, "cadence": 93 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 75 },
+      { "time": "1s", "cadence": 89 },
+      { "time": "2s", "cadence": 96 },
+      { "time": "3s", "cadence": 93 },
+      { "time": "4s", "cadence": 98 },
+      { "time": "5s", "cadence": 91 }
+    ],
+    "speed": 5.5,
+    "jump": 29,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 3 },
+      { "time": "3s", "sway": 1 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -2 },
+      { "time": "6s", "sway": 0 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 182,
+    "weight": 88,
+    "fat": 22,
+    "water": 55,
+    "pressure": [39, 24, 37],
+    "weightDistribution": [55, 45],
+    "foot_kinematics": {
+      "dorsiflexion": 73,
+      "plantarflexion": 49,
+      "pronation": 67,
+      "supination": 63
+    },
+    "balance_score": 86,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 82 },
+      { "time": "1s", "steps": 22, "cadence": 88 },
+      { "time": "2s", "steps": 48, "cadence": 94 },
+      { "time": "3s", "steps": 74, "cadence": 100 },
+      { "time": "4s", "steps": 98, "cadence": 105 },
+      { "time": "5s", "steps": 123, "cadence": 97 }
+    ],
+     "gait_analysis_data": [
+      { "time": "0s", "cadence": 83 },
+      { "time": "1s", "cadence": 98 },
+      { "time": "2s", "cadence": 105 },
+      { "time": "3s", "cadence": 102 },
+      { "time": "4s", "cadence": 108 },
+      { "time": "5s", "cadence": 101 }
+    ],
+    "speed": 6.6,
+    "jump": 39,
+     "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 2 },
+      { "time": "2s", "sway": 4 },
+      { "time": "3s", "sway": 2 },
+      { "time": "4s", "sway": -2 },
+      { "time": "5s", "sway": -3 },
+      { "time": "6s", "sway": -1 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 158,
+    "weight": 55,
+    "fat": 29,
+    "water": 51,
+    "pressure": [32, 19, 49],
+    "weightDistribution": [50, 50],
+    "foot_kinematics": {
+      "dorsiflexion": 64,
+      "plantarflexion": 57,
+      "pronation": 58,
+      "supination": 55
+    },
+    "balance_score": 72,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 75 },
+      { "time": "1s", "steps": 17, "cadence": 81 },
+      { "time": "2s", "steps": 41, "cadence": 87 },
+      { "time": "3s", "steps": 65, "cadence": 93 },
+      { "time": "4s", "steps": 88, "cadence": 98 },
+      { "time": "5s", "steps": 111, "cadence": 92 }
+    ],
+     "gait_analysis_data": [
+      { "time": "0s", "cadence": 74 },
+      { "time": "1s", "cadence": 87 },
+      { "time": "2s", "cadence": 94 },
+      { "time": "3s", "cadence": 91 },
+      { "time": "4s", "cadence": 97 },
+      { "time": "5s", "cadence": 90 }
+    ],
+    "speed": 5.4,
+    "jump": 28,
+     "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 2 },
+      { "time": "3s", "sway": 0 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -3 },
+      { "time": "6s", "sway": -1 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 170,
+    "weight": 70,
+    "fat": 22,
+    "water": 55,
+    "pressure": [36, 22, 42],
+    "weightDistribution": [51, 49],
+    "foot_kinematics": {
+      "dorsiflexion": 68,
+      "plantarflexion": 54,
+      "pronation": 61,
+      "supination": 59
+    },
+    "balance_score": 79,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 85 },
+      { "time": "1s", "steps": 20, "cadence": 88 },
+      { "time": "2s", "steps": 40, "cadence": 92 },
+      { "time": "3s", "steps": 60, "cadence": 95 },
+      { "time": "4s", "steps": 80, "cadence": 93 },
+      { "time": "5s", "steps": 100, "cadence": 90 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 82 },
+      { "time": "1s", "cadence": 89 },
+      { "time": "2s", "cadence": 94 },
+      { "time": "3s", "cadence": 97 },
+      { "time": "4s", "cadence": 92 },
+      { "time": "5s", "cadence": 91 }
+    ],
+    "speed": 5.9,
+    "jump": 31,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 3 },
+      { "time": "3s", "sway": 0 },
+      { "time": "4s", "sway": -2 },
+      { "time": "5s", "sway": -1 },
+      { "time": "6s", "sway": 1 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 185,
+    "weight": 95,
+    "fat": 26,
+    "water": 53,
+    "pressure": [42, 26, 36],
+    "weightDistribution": [56, 44],
+    "foot_kinematics": {
+      "dorsiflexion": 70,
+      "plantarflexion": 52,
+      "pronation": 65,
+      "supination": 60
+    },
+    "balance_score": 77,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 76 },
+      { "time": "1s", "steps": 18, "cadence": 82 },
+      { "time": "2s", "steps": 42, "cadence": 87 },
+      { "time": "3s", "steps": 66, "cadence": 89 },
+      { "time": "4s", "steps": 88, "cadence": 85 },
+      { "time": "5s", "steps": 110, "cadence": 84 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 80 },
+      { "time": "1s", "cadence": 84 },
+      { "time": "2s", "cadence": 90 },
+      { "time": "3s", "cadence": 92 },
+      { "time": "4s", "cadence": 88 },
+      { "time": "5s", "cadence": 85 }
+    ],
+    "speed": 5.2,
+    "jump": 28,
+    "sway_data": [
+      { "time": "0s", "sway": -1 },
+      { "time": "1s", "sway": 0 },
+      { "time": "2s", "sway": 1 },
+      { "time": "3s", "sway": 0 },
+      { "time": "4s", "sway": -2 },
+      { "time": "5s", "sway": -3 },
+      { "time": "6s", "sway": -1 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 160,
+    "weight": 50,
+    "fat": 18,
+    "water": 60,
+    "pressure": [30, 18, 52],
+    "weightDistribution": [49, 51],
+    "foot_kinematics": {
+      "dorsiflexion": 65,
+      "plantarflexion": 58,
+      "pronation": 58,
+      "supination": 54
+    },
+    "balance_score": 88,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 90 },
+      { "time": "1s", "steps": 21, "cadence": 96 },
+      { "time": "2s", "steps": 44, "cadence": 101 },
+      { "time": "3s", "steps": 66, "cadence": 105 },
+      { "time": "4s", "steps": 88, "cadence": 99 },
+      { "time": "5s", "steps": 110, "cadence": 97 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 88 },
+      { "time": "1s", "cadence": 95 },
+      { "time": "2s", "cadence": 100 },
+      { "time": "3s", "cadence": 102 },
+      { "time": "4s", "cadence": 96 },
+      { "time": "5s", "cadence": 94 }
+    ],
+    "speed": 6.8,
+    "jump": 34,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 2 },
+      { "time": "2s", "sway": 1 },
+      { "time": "3s", "sway": -1 },
+      { "time": "4s", "sway": -2 },
+      { "time": "5s", "sway": -1 },
+      { "time": "6s", "sway": 0 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 172,
+    "weight": 62,
+    "fat": 17,
+    "water": 61,
+    "pressure": [34, 20, 46],
+    "weightDistribution": [50, 50],
+    "foot_kinematics": {
+      "dorsiflexion": 72,
+      "plantarflexion": 56,
+      "pronation": 66,
+      "supination": 64
+    },
+    "balance_score": 91,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 92 },
+      { "time": "1s", "steps": 23, "cadence": 97 },
+      { "time": "2s", "steps": 47, "cadence": 103 },
+      { "time": "3s", "steps": 71, "cadence": 108 },
+      { "time": "4s", "steps": 94, "cadence": 102 },
+      { "time": "5s", "steps": 118, "cadence": 100 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 89 },
+      { "time": "1s", "cadence": 96 },
+      { "time": "2s", "cadence": 101 },
+      { "time": "3s", "cadence": 103 },
+      { "time": "4s", "cadence": 98 },
+      { "time": "5s", "cadence": 95 }
+    ],
+    "speed": 6.7,
+    "jump": 37,
+    "sway_data": [
+      { "time": "0s", "sway": 0 },
+      { "time": "1s", "sway": 1 },
+      { "time": "2s", "sway": 2 },
+      { "time": "3s", "sway": 1 },
+      { "time": "4s", "sway": -1 },
+      { "time": "5s", "sway": -2 },
+      { "time": "6s", "sway": 0 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 165,
+    "weight": 85,
+    "fat": 32,
+    "water": 49,
+    "pressure": [40, 25, 35],
+    "weightDistribution": [55, 45],
+    "foot_kinematics": {
+      "dorsiflexion": 62,
+      "plantarflexion": 50,
+      "pronation": 55,
+      "supination": 53
+    },
+    "balance_score": 70,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 70 },
+      { "time": "1s", "steps": 15, "cadence": 74 },
+      { "time": "2s", "steps": 36, "cadence": 79 },
+      { "time": "3s", "steps": 56, "cadence": 83 },
+      { "time": "4s", "steps": 76, "cadence": 81 },
+      { "time": "5s", "steps": 96, "cadence": 78 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 70 },
+      { "time": "1s", "cadence": 76 },
+      { "time": "2s", "cadence": 80 },
+      { "time": "3s", "cadence": 82 },
+      { "time": "4s", "cadence": 77 },
+      { "time": "5s", "cadence": 74 }
+    ],
+    "speed": 5.0,
+    "jump": 25,
+    "sway_data": [
+      { "time": "0s", "sway": -1 },
+      { "time": "1s", "sway": -2 },
+      { "time": "2s", "sway": -1 },
+      { "time": "3s", "sway": 0 },
+      { "time": "4s", "sway": 1 },
+      { "time": "5s", "sway": 2 },
+      { "time": "6s", "sway": 0 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 170,
+    "weight": 120,
+    "fat": 42,
+    "water": 40,
+    "pressure": [45, 30, 35],
+    "weightDistribution": [55, 45],
+    "foot_kinematics": {
+      "dorsiflexion": 60,
+      "plantarflexion": 45,
+      "pronation": 58,
+      "supination": 54
+    },
+    "balance_score": 65,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 68 },
+      { "time": "1s", "steps": 14, "cadence": 72 },
+      { "time": "2s", "steps": 31, "cadence": 75 },
+      { "time": "3s", "steps": 46, "cadence": 77 },
+      { "time": "4s", "steps": 59, "cadence": 74 },
+      { "time": "5s", "steps": 72, "cadence": 70 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 65 },
+      { "time": "1s", "cadence": 70 },
+      { "time": "2s", "cadence": 74 },
+      { "time": "3s", "cadence": 72 },
+      { "time": "4s", "cadence": 71 },
+      { "time": "5s", "cadence": 69 }
+    ],
+    "speed": 3.2,
+    "jump": 15,
+    "sway_data": [
+      { "time": "0s", "sway": 2 },
+      { "time": "1s", "sway": 3 },
+      { "time": "2s", "sway": 5 },
+      { "time": "3s", "sway": 4 },
+      { "time": "4s", "sway": 3 },
+      { "time": "5s", "sway": 2 },
+      { "time": "6s", "sway": 3 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 160,
+    "weight": 105,
+    "fat": 40,
+    "water": 42,
+    "pressure": [43, 29, 38],
+    "weightDistribution": [50, 50],
+    "foot_kinematics": {
+      "dorsiflexion": 58,
+      "plantarflexion": 48,
+      "pronation": 57,
+      "supination": 52
+    },
+    "balance_score": 62,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 66 },
+      { "time": "1s", "steps": 13, "cadence": 70 },
+      { "time": "2s", "steps": 28, "cadence": 72 },
+      { "time": "3s", "steps": 42, "cadence": 74 },
+      { "time": "4s", "steps": 55, "cadence": 71 },
+      { "time": "5s", "steps": 67, "cadence": 68 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 64 },
+      { "time": "1s", "cadence": 69 },
+      { "time": "2s", "cadence": 72 },
+      { "time": "3s", "cadence": 70 },
+      { "time": "4s", "cadence": 69 },
+      { "time": "5s", "cadence": 67 }
+    ],
+    "speed": 3.0,
+    "jump": 12,
+    "sway_data": [
+      { "time": "0s", "sway": 3 },
+      { "time": "1s", "sway": 4 },
+      { "time": "2s", "sway": 5 },
+      { "time": "3s", "sway": 3 },
+      { "time": "4s", "sway": 2 },
+      { "time": "5s", "sway": 3 },
+      { "time": "6s", "sway": 2 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 180,
+    "weight": 130,
+    "fat": 45,
+    "water": 39,
+    "pressure": [47, 31, 33],
+    "weightDistribution": [60, 40],
+    "foot_kinematics": {
+      "dorsiflexion": 56,
+      "plantarflexion": 44,
+      "pronation": 55,
+      "supination": 50
+    },
+    "balance_score": 60,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 65 },
+      { "time": "1s", "steps": 12, "cadence": 69 },
+      { "time": "2s", "steps": 27, "cadence": 71 },
+      { "time": "3s", "steps": 41, "cadence": 73 },
+      { "time": "4s", "steps": 53, "cadence": 70 },
+      { "time": "5s", "steps": 65, "cadence": 66 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 63 },
+      { "time": "1s", "cadence": 68 },
+      { "time": "2s", "cadence": 71 },
+      { "time": "3s", "cadence": 69 },
+      { "time": "4s", "cadence": 67 },
+      { "time": "5s", "cadence": 65 }
+    ],
+    "speed": 2.8,
+    "jump": 10,
+    "sway_data": [
+      { "time": "0s", "sway": 4 },
+      { "time": "1s", "sway": 5 },
+      { "time": "2s", "sway": 6 },
+      { "time": "3s", "sway": 4 },
+      { "time": "4s", "sway": 3 },
+      { "time": "5s", "sway": 2 },
+      { "time": "6s", "sway": 4 }
+    ]
+  },
+  {
+    "gender": "female",
+    "height": 158,
+    "weight": 98,
+    "fat": 38,
+    "water": 43,
+    "pressure": [42, 28, 39],
+    "weightDistribution": [52, 48],
+    "foot_kinematics": {
+      "dorsiflexion": 59,
+      "plantarflexion": 47,
+      "pronation": 56,
+      "supination": 51
+    },
+    "balance_score": 64,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 67 },
+      { "time": "1s", "steps": 14, "cadence": 71 },
+      { "time": "2s", "steps": 30, "cadence": 74 },
+      { "time": "3s", "steps": 44, "cadence": 76 },
+      { "time": "4s", "steps": 56, "cadence": 72 },
+      { "time": "5s", "steps": 68, "cadence": 69 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 66 },
+      { "time": "1s", "cadence": 70 },
+      { "time": "2s", "cadence": 73 },
+      { "time": "3s", "cadence": 71 },
+      { "time": "4s", "cadence": 69 },
+      { "time": "5s", "cadence": 67 }
+    ],
+    "speed": 3.1,
+    "jump": 13,
+    "sway_data": [
+      { "time": "0s", "sway": 3 },
+      { "time": "1s", "sway": 2 },
+      { "time": "2s", "sway": 4 },
+      { "time": "3s", "sway": 3 },
+      { "time": "4s", "sway": 2 },
+      { "time": "5s", "sway": 1 },
+      { "time": "6s", "sway": 2 }
+    ]
+  },
+  {
+    "gender": "male",
+    "height": 176,
+    "weight": 125,
+    "fat": 44,
+    "water": 40,
+    "pressure": [46, 32, 34],
+    "weightDistribution": [58, 42],
+    "foot_kinematics": {
+      "dorsiflexion": 57,
+      "plantarflexion": 43,
+      "pronation": 56,
+      "supination": 49
+    },
+    "balance_score": 61,
+    "step_cadence_data": [
+      { "time": "0s", "steps": 0, "cadence": 64 },
+      { "time": "1s", "steps": 12, "cadence": 67 },
+      { "time": "2s", "steps": 25, "cadence": 70 },
+      { "time": "3s", "steps": 39, "cadence": 72 },
+      { "time": "4s", "steps": 50, "cadence": 68 },
+      { "time": "5s", "steps": 62, "cadence": 65 }
+    ],
+    "gait_analysis_data": [
+      { "time": "0s", "cadence": 62 },
+      { "time": "1s", "cadence": 66 },
+      { "time": "2s", "cadence": 69 },
+      { "time": "3s", "cadence": 68 },
+      { "time": "4s", "cadence": 66 },
+      { "time": "5s", "cadence": 63 }
+    ],
+    "speed": 2.9,
+    "jump": 11,
+    "sway_data": [
+      { "time": "0s", "sway": 3 },
+      { "time": "1s", "sway": 2 },
+      { "time": "2s", "sway": 4 },
+      { "time": "3s", "sway": 2 },
+      { "time": "4s", "sway": 1 },
+      { "time": "5s", "sway": 1 },
+      { "time": "6s", "sway": 2 }
+    ]
+  }
+]
