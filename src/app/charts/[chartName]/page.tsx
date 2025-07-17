@@ -51,7 +51,7 @@ export default function ChartDetailPage() {
   if (!matchedResult)
     return <p className="text-center mt-10">No data found.</p>;
 
-  const chartMap: Record<string, JSX.Element> = {
+  const chartMap: Record<string, React.ReactNode> = {
     "plantar-pressure": (
       <PressureBarChart pressureData={matchedResult.pressure} />
     ),
