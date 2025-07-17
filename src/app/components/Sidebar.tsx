@@ -31,9 +31,12 @@ export default function Sidebar() {
   ];
   return (
     <aside className="w-64 bg-[#1e3a8a] text-white min-h-screen flex flex-col">
-      <div className="flex items-center p-6 justify-center h-20 border-b border-blue-900">
+      <Link
+        href={"/"}
+        className="flex items-center p-6 justify-center h-20 border-b border-blue-900"
+      >
         <img src={logo.src} alt="Logo" />
-      </div>
+      </Link>
       <nav className="flex-1 p-4 space-y-1">
         {navItems.map((item) => (
           <Link

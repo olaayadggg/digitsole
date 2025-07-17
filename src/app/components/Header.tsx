@@ -23,9 +23,9 @@ export default function Header() {
     <header className="h-20 px-6 flex items-center justify-between bg-[#1e3a8a] text-white border-b border-blue-900">
       <div className="flex items-center space-x-4">
         {!user && (
-          <div className="flex items-center justify-center mr-7">
+          <Link href={"/"} className="flex items-center justify-center mr-7">
             <img src={logo.src} alt="Logo" className="h-9" height={12} />
-          </div>
+          </Link>
         )}
         <span className="bg-blue-700 text-sm font-medium px-3 py-1 rounded-full">
           Pro’s workspace
