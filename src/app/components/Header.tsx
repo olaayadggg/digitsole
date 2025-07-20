@@ -4,11 +4,10 @@ import { LogOutIcon, Search } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useUser } from "@/app/context/UserContext";
-import { useEffect } from "react";
 import logo from "@/app/public/images/dLogo.png";
 export default function Header() {
   const router = useRouter();
-  const { user, setUser } = useUser();
+  const { user, setUser, mode, setMode } = useUser();
 
   const handleLogout = () => {
     localStorage.removeItem("currentUser");
@@ -16,26 +15,35 @@ export default function Header() {
     router.push("/auth/login");
   };
 
-  useEffect(() => {
-    console.log("user ya ola", user);
-  }, [user]);
+  const goToDemo = () => {
+    setMode("demo");
+    router.push("/demo");
+  };
+
+  const goToPro = () => {
+    setMode("pro");
+    router.push("/");
+  };
   return (
     <header className="h-20 px-6 flex items-center justify-between bg-[#1e3a8a] text-white border-b border-blue-900">
       <div className="flex items-center space-x-4">
-        {!user && (
+        {(!user || mode === "demo") && (
           <Link href={"/"} className="flex items-center justify-center mr-7">
             <img src={logo.src} alt="Logo" className="h-9" height={12} />
           </Link>
         )}
-        <span className="bg-blue-700 text-sm font-medium px-3 py-1 rounded-full">
+        <button
+          onClick={goToPro}
+          className="bg-blue-700 text-sm font-medium px-3 cursor-pointer py-1 rounded-full"
+        >
           Pro’s workspace
-        </span>
-        <Link
-          href={"/demo"}
-          className="text-sm text-blue-100  bg-blue-900 px-3 py-1 rounded-full"
+        </button>
+        <button
+          onClick={goToDemo}
+          className="text-sm text-blue-100  bg-blue-900 px-3 cursor-pointer py-1 rounded-full"
         >
           Demo
-        </Link>
+        </button>
       </div>
 
       <div className="flex items-center gap-6">
