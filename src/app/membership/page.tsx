@@ -1,12 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useUser } from "@/app/context/UserContext";
-import { supabase } from "@/app/lib/supabase";
+import { useUser } from "../context/UserContext";
+import { supabase } from "../lib/supabase";
 import { Edit2Icon } from "lucide-react";
 import toast from "react-hot-toast";
 
-export default function PatientProfilePage() {
+export default function MembershipPage() {
   const { user, setUser } = useUser();
   const [form, setForm] = useState(user);
   const [isEditing, setIsEditing] = useState(false);
@@ -31,11 +31,11 @@ export default function PatientProfilePage() {
     if (!error) {
       setUser(form);
       localStorage.setItem("currentUser", JSON.stringify(form));
-      toast.success("Profile updated successfully");
+      toast.success("Changes Updated successfully");
       setIsEditing(false);
     } else {
-      toast.error("Failed to update user");
       console.error("Failed to update user:", error);
+      toast.error("Failed to update user");
     }
   };
 
@@ -43,15 +43,10 @@ export default function PatientProfilePage() {
 
   return (
     <section>
-      <div className="bg-white p-6 rounded-xl shadow-md space-y-8">
+      <div className="p-6 bg-white rounded-xl shadow-md space-y-6">
         <div className="flex justify-between items-start">
           <div>
-            <h1 className="text-5xl font-base text-blue-900">
-              {form.firstName} {form.lastName}
-              <span className="text-gray-500 text-sm ml-2 mt-1">
-                {form.birthDay}
-              </span>
-            </h1>
+            <h1 className="text-3xl font-semibold text-blue-900">Membership</h1>
           </div>
           <div>
             {isEditing ? (
@@ -71,53 +66,30 @@ export default function PatientProfilePage() {
             )}
           </div>
         </div>
-
+        <div>
+          <label className="font-semibold text-lg">
+            Membership ID : {user?.membershipId || "#uhvs78dvsk"}
+          </label>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {renderField("First Name", "firstName", form.firstName)}
-          {renderField("Last Name", "lastName", form.lastName)}
-          {renderField("Birth Date", "birthDay", form.birthDay, "date")}
-          {renderField("Nationality", "nationality", form.nationality || "—")}
           {renderField(
-            "Medical Specialty",
-            "medicalSpecialty",
-            form.medicalSpecialty || "—"
+            "Payment Method",
+            "cardType",
+            form.cardType || "—",
+            "select",
+            ["Visa", "Mastercard", "Dues"]
           )}
+
           {renderField(
             "Years of Membership",
             "yearsMembership",
-            form.yearsMembership || "—"
+            form.yearsMembership || "—",
+            "number"
           )}
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 bg-gray-50 p-6 rounded-lg">
-          {renderInfo("Gender", "gender", form.gender)}
-          {renderInfo("Height", "height", form.height || "—")}
-          {renderInfo("Weight", "weight", form.weight || "—")}
-          {renderInfo("Shoe Size", "shoeSize", form.shoeSize || "—")}
         </div>
       </div>
     </section>
   );
-
-  function renderInfo(label: string, name: string, value: string | number) {
-    return (
-      <div className="text-center shadow p-4 rounded-lg bg-white">
-        <p className="text-blue-900 font-bold text-xl">{label}</p>
-        {isEditing ? (
-          <input
-            type="text"
-            name={name}
-            value={value}
-            onChange={handleChange}
-            className="input text-center w-full mt-1"
-          />
-        ) : (
-          <p className="text-lg font-base text-gray-500">{value}</p>
-        )}
-      </div>
-    );
-  }
-
   function renderField(
     label: string,
     name: string,
@@ -134,7 +106,7 @@ export default function PatientProfilePage() {
               name={name}
               value={value}
               onChange={handleChange}
-              className="select select-bordered w-full"
+              className="select p-[10px] bg-[#f4f5f6] rounded-lg w-full"
             >
               <option value="">Select</option>
               {options.map((opt) => (

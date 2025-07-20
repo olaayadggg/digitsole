@@ -18,6 +18,7 @@ type User = {
   weight?: string;
   cardType?: string;
   shoeSize?:string;
+  membershipId?:string;
 };
 
 type UserContextType = {

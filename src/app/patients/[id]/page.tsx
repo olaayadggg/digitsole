@@ -82,7 +82,7 @@ export default function PatientViewPage() {
   return (
     <section className="space-y-6">
       <div className="flex items-center justify-between">
-        <h2 className="text-3xl font-bold text-gray-700">Health Metrics</h2>
+        <h2 className="text-3xl font-bold text-blue-900">Health Metrics</h2>
         <Button text="Reset" onClick={() => reset()} />
       </div>
 

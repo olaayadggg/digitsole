@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import AppLayout from "@/app/AppLayout";
 import { UserProvider } from "./context/UserContext";
+import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
   title: "Digitsole",
@@ -19,6 +20,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body>
+        <Toaster position="top-right" />
         <UserProvider>
           <AppLayout>{children}</AppLayout>
         </UserProvider>
