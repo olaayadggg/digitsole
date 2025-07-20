@@ -30,9 +30,12 @@ export default function Header() {
         <span className="bg-blue-700 text-sm font-medium px-3 py-1 rounded-full">
           Pro’s workspace
         </span>
-        <button className="text-sm text-blue-100 bg-blue-900 px-3 py-1 rounded-full">
+        <Link
+          href={"/demo"}
+          className="text-sm text-blue-100  bg-blue-900 px-3 py-1 rounded-full"
+        >
           Demo
-        </button>
+        </Link>
       </div>
 
       <div className="flex items-center gap-6">
